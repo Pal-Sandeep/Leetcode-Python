@@ -1,3 +1,4 @@
+#convert Roman to Integer
 class Solution:
     # @param {string} s
     # @return {integer}
@@ -14,4 +15,3 @@ class Solution:
             result+=roman[s[-1]]
         
         return result
-        
